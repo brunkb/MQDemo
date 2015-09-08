@@ -61,12 +61,7 @@ try {
     connection.close()
 
     println("\nSUCCESS\n")
-}
-catch (JMSException jmsex) {
+} catch (any) {
     println(jmsex)
-    println("\nFAILURE\n")
-}
-catch (Exception ex) {
-    println(ex)
     println("\nFAILURE\n")
 }
