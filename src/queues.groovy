@@ -1,4 +1,4 @@
-@GrabResolver(name = 'artifactory', root = 'http://flmaven.westlan.com/artifactory/repo/')
+@GrabResolver(name = 'artifactory', root = 'somerepo')
 @Grab(group = 'com.ibm', module = 'com.ibm.mqjms', version = '7.5.0')
 @Grab(group = 'com.ibm', module = 'com.ibm.mq.jmqi', version = '7.5.0')
 @Grab(group = 'com.ibm', module = 'dhbcore', version = '7.5.0')
